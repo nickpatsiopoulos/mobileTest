@@ -2,10 +2,10 @@ p {
   color: blue;
 }
 
-@media only screen and (min-resolution: 180dpi)
-  and (max-resolution: 10000dpi) {
+@media only screen and (min-resolution: 350dpi)
+  and (max-resolution: 600dpi) {
 
   p {
-    color: green;
+    color: red;
   }
 }
