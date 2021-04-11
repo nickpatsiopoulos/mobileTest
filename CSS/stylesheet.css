@@ -2,8 +2,8 @@ p {
   color: blue;
 }
 
-@media only screen and (min-resolution: 350dpi)
-  and (min-resolution: 600dpi) {
+@media only screen and (min-resolution: 300dpi)
+  and (max-resolution: 600dpi) {
 
   p {
     color: red;
