@@ -1,3 +1,13 @@
 p {
   color: blue;
 }
+
+@media only screen and (min-device-width: 412px)
+  and (max-device-width: 847px)
+  and (min-resolution: 350dpi)
+  and (min-resolution: 600dpi) {
+
+  p {
+    color: red;
+  }
+}
