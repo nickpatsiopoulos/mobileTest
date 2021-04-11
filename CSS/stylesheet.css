@@ -6,6 +6,6 @@ p {
   and (max-resolution: 600dpi) {
 
   p {
-    color: red;
+    color: green;
   }
 }
