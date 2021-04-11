@@ -3,7 +3,7 @@ p {
 }
 
 @media only screen and (min-resolution: 350dpi)
-  and (max-resolution: 600dpi) {
+  and (max-resolution: 10000dpi) {
 
   p {
     color: green;
