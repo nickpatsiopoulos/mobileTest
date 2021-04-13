@@ -2,7 +2,8 @@ p {
   color: blue;
 }
 
-@media only screen and (-webkit-device-pixel-ratio: 3.375) {
+@media only screen and (min-resolution: 3dppx),
+(-webkit-min-device-pixel-ratio: 3) {
 
   p {
     color: green;
