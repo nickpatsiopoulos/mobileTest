@@ -2,8 +2,7 @@ p {
   color: blue;
 }
 
-@media only screen and (min-aspect-ratio: ~'3/1')
-  and (max-device-width: 680px) {
+@media only screen and (max-device-width: 680px) {
 
   p {
     color: red;
