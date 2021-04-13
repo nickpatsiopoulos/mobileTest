@@ -2,9 +2,9 @@ p {
   color: blue;
 }
 
-@media only screen and (max-device-width: 680px) {
+@media only screen and (-webkit-device-pixel-ratio: 3.375) {
 
   p {
-    color: red;
+    color: green;
   }
 }
